@@ -1,0 +1,21 @@
+
+
+pravin@VOLP-PHR:~/gitlab1$ git config --global user.email "pravin@upperthrust.com"
+pravin@VOLP-PHR:~/gitlab1$ git config --global user.username "pravin190786-devops"
+pravin@VOLP-PHR:~/gitlab1$ git config --global user.password "pravin@github#2021"
+
+pravin@VOLP-PHR:~/gitlab1$ git init
+Reinitialized existing Git repository in /home/pravin/gitlab1/.git/
+pravin@VOLP-PHR:~/gitlab1$ git add .
+pravin@VOLP-PHR:~/gitlab1$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   gitsteps.txt
+        new file:   index.html
+
+pravin@VOLP-PHR:~/gitlab1$
