@@ -1,8 +1,7 @@
 
 
 pravin@VOLP-PHR:~/gitlab1$ git config --global user.email "pravin@upperthrust.com"
-pravin@VOLP-PHR:~/gitlab1$ git config --global user.username "pravin190786-devops"
-pravin@VOLP-PHR:~/gitlab1$ git config --global user.password "pravin@github#2021"
+pravin@VOLP-PHR:~/gitlab1$ git config --global user.name "pravin190786-devops"
 
 pravin@VOLP-PHR:~/gitlab1$ git init
 Reinitialized existing Git repository in /home/pravin/gitlab1/.git/
@@ -18,4 +17,14 @@ Changes to be committed:
         new file:   gitsteps.txt
         new file:   index.html
 
-pravin@VOLP-PHR:~/gitlab1$
+pravin@VOLP-PHR:~/gitlab1$ git commit . -m "first commit"
+pravin@VOLP-PHR:~/gitlab1$ git push origin HEAD:main
+Username for 'https://github.com': pravin190786-devops
+Password for 'https://pravin190786-devops@github.com':
+Counting objects: 4, done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 596 bytes | 596.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/pravin190786-devops/gitlab1.git
+ * [new branch]      HEAD -> main
